@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
-const plumber = require('gulp-plumber');
+// const plumber = require('gulp-plumber');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 const sourceMaps = require('gulp-sourcemaps');
@@ -16,7 +16,7 @@ const replace = require('gulp-replace');
 
 gulp.task('sass', function () {
   return gulp.src('scss/style.scss')
-      .pipe(plumber())
+      // .pipe(plumber())
       .pipe(sourceMaps.init())
       .pipe(sass())
       .pipe(autoprefixer({
