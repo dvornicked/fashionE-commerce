@@ -33,6 +33,9 @@
         $values: (bg: $white, fs: 12px, lh: 20px, ls: 2.16px, w: 250px, br: 60px, clr: $black);
         @include btn($values...) {
             padding: 20px 0;
+            &:hover {
+                background-color: darken($white, 2%);
+            }
         };
         margin: 35px auto 0;
     }

@@ -28,8 +28,8 @@
    text-transform: uppercase;
    margin: 25px 0;
    text-decoration: none;
-   @content;
    &:hover {
       background-color: lighten($bg, 15%);
    }
+   @content;
 }
