@@ -65,9 +65,9 @@
    }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 460px) {
    .links {
-       padding-top: 150px;
+       padding: 150px 0 50px;
       &__element {
          flex-basis: 100%;
          text-align: center;
